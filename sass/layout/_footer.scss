@@ -1,0 +1,129 @@
+.footer {
+  margin-top: 94px;
+  background-color: var(--background-footer-color);
+}
+.footer-addres {
+  height: 252px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.addres-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  list-style: none;
+}
+.addres-list .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.social:first-child {
+  padding-top: 60px;
+}
+.social:nth-child(2) {
+  margin-top: 20px;
+}
+.social:nth-child(n + 3) {
+  margin-top: 9px;
+}
+.social:last-child {
+  margin-bottom: 60px;
+}
+.social .link:hover,
+.social .link:focus {
+  color: var(--accent-color-text);
+}
+.link-blok {
+  margin-left: 70px;
+}
+.addres-title {
+  padding: 0px;
+  font-size: 14px;
+  color: var(--white-color);
+  margin-top: 70px;
+}
+
+.footer-blok {
+  display: flex;
+}
+.footer-list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+}
+.footer-item {
+  margin-top: 20px;
+  width: 44px;
+  height: 44px;
+  list-style: none;
+}
+.footer-item + .footer-item {
+  margin-left: 10px;
+}
+.footer-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--accent-color-text);
+}
+.footer-icon {
+  fill: var(--white-color);
+  width: 20px;
+  height: 20px;
+}
+
+.subscribe-box {
+  margin-top: 72px;
+  margin-left: 93px;
+}
+
+.subscribe-title {
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.subscribe-form {
+  margin-top: 20px;
+  display: flex;
+}
+
+.subscibe-input {
+  color: var(--white-color);
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  outline: none;
+}
+
+.subscribe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+  margin-top: 0;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-icon {
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+}
