@@ -1,13 +1,7 @@
-.section-title {
+.title {
   color: var(--secondary-text-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-}
-.section {
-  & .title {
-    color: var(--secondary-text-color);
-  }
 }

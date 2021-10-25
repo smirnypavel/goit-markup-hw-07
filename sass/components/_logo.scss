@@ -6,9 +6,16 @@
   color: var(--accent-color-text);
   text-decoration: none;
 }
-.logo-header {
+.logo__studio-header {
   color: var(--logo-text-color);
 }
-.logo-footer {
+.logo__studio-footer {
   color: var(--white-color);
+}
+
+.logo__web-footer {
+  color: inherit;
+}
+.logo__web-header {
+  color: inherit;
 }

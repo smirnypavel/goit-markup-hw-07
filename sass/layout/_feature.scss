@@ -1,4 +1,4 @@
-.feature {
+.feature__list {
   display: flex;
   padding: 0px;
   margin-top: 94px;
@@ -6,7 +6,7 @@
   list-style: none;
 }
 
-.feature-icon {
+.feature__board {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,20 +14,20 @@
   height: 120px;
   background-color: var(--secondary-backgraund-color);
 }
-.feature-logo {
+.feature__logo {
   width: 70px;
   height: 70px;
 }
-.feature-list {
+.feature__item {
   margin-top: 0px;
   width: 270px;
   text-align: left;
 }
-.feature-list:not(:first-child) {
+.feature__item:not(:first-child) {
   margin-left: 30px;
 }
 
-.feature-title {
+.feature__title {
   color: var(--secondary-text-color);
   text-transform: uppercase;
 }
