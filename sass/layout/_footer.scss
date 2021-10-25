@@ -2,67 +2,72 @@
   margin-top: 94px;
   background-color: var(--background-footer-color);
 }
-.footer-addres {
+.footer__box {
+  display: flex;
+}
+
+.footer__addres {
   height: 252px;
   font-style: normal;
   color: #ffffff;
 }
 
-.addres-list {
+.footer__addres-list {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
   list-style: none;
 }
-.addres-list .link {
+.footer__addres-link {
   color: rgba(255, 255, 255, 0.6);
 }
-.social:first-child {
+.footer__addres-item:first-child {
   padding-top: 60px;
 }
-.social:nth-child(2) {
+.footer__addres-item:nth-child(2) {
   margin-top: 20px;
 }
-.social:nth-child(n + 3) {
+.footer__addres-item:nth-child(n + 3) {
   margin-top: 9px;
 }
-.social:last-child {
+.footer__addres-item:last-child {
   margin-bottom: 60px;
 }
-.social .link:hover,
-.social .link:focus {
-  color: var(--accent-color-text);
+.footer__addres-item {
+  & .footer__addres-link:hover,
+  & .footer__addres-link:focus {
+    color: var(--accent-color-text);
+  }
 }
-.link-blok {
+
+.footer__social-box {
   margin-left: 70px;
 }
-.addres-title {
+.footer__social-title {
   padding: 0px;
   font-size: 14px;
   color: var(--white-color);
   margin-top: 70px;
 }
 
-.footer-blok {
-  display: flex;
-}
-.footer-list {
+.footer__social-list {
   margin: 0px;
   padding: 0px;
   list-style: none;
   display: flex;
 }
-.footer-item {
+.footer__social-item {
   margin-top: 20px;
   width: 44px;
   height: 44px;
   list-style: none;
+  & + & {
+    margin-left: 10px;
+  }
 }
-.footer-item + .footer-item {
-  margin-left: 10px;
-}
-.footer-link {
+
+.footer__social-link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -71,18 +76,19 @@
   justify-content: center;
   background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color-text);
+  }
 }
-.footer-link:hover,
-.footer-link:focus {
-  background-color: var(--accent-color-text);
-}
-.footer-icon {
+
+.footer__social-icon {
   fill: var(--white-color);
   width: 20px;
   height: 20px;
 }
 
-.subscribe-box {
+.subscribe__box {
   margin-top: 72px;
   margin-left: 93px;
 }
@@ -95,7 +101,7 @@
   line-height: 1.14;
 }
 
-.subscribe-form {
+.subscribe__form {
   margin-top: 20px;
   display: flex;
 }
